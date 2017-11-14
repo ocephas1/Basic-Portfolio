@@ -1,45 +1,188 @@
 <style>
 
+* {
+	box-sizing: border-box;
+	text-align: center;
+}
+
+
 body {
 		
-		padding: ;
+		background: url("assets/image/paisley.png");
+		padding: 30px;
+		margin-bottom: 30px
+}
+
+header {
+	padding: 30px;
+	margin-bottom: 30px;
+	color: #333;
+
 }
 
 img {
 
 	width: 350px;
-	
 	height:425px;
+}
+
+
+
+p {
+	font-family: helvetica;
+	font-size: 20px;
+	font-color: #585050;
 }
 
 h1 {
 	font-size: 50px;
 	color: #095C9C;
+	font-family: georgia;
+	padding: 30px;
 
 }
 
 h2 {
 	color: #095C9C;
-
 	font-size: 35px;
+	font-family: georgia;
+	
 }
 
 h3 {
 	color: #095C9C;
-
 	font-size: 35px;
+	font-family: georgia;
 }
+	
 
 h4 {
 	color: #095C9C;
-
 	font-size: 35px;
+	font-family: georgia;
+	padding: 40px;
+	margin: 35px;
+
 }
 
 
 h5 {
 	color: #095C9C;
+	font-size: 15px;
+	font-family: georgia;
+	float: right;
+	clear: both;
+	
+}
 
+div {
+	width: 20px;
+	border: 2px solid;
+	padding: 20px;
+	margin: 30px;
+}
+
+#about {
+	color: #F853D3;
+	font-size: 20px;
+	float: right;
+}
+
+#portfolio {
+	color: #F853D3;
+	font-size: 20px;
+	float: right;
+
+}
+
+#contact {
+	color: #F853D3;
+	font-size: 20px;
+	float: right;
+	clear: both;
+
+}
+
+#name {
+	color: #F853D3;
 	font-size: 20px;
 }
+
+#email {
+	color: #F853D3;
+	font-size: 20px;
+}
+
+#message {
+	color: #F853D3;
+	font-size: 20px;
+}
+
+#wrap1 {
+	width: 650px;
+	padding: 30px;
+	margin: 0 auto;
+}
+
+#wrap2 {
+	width: 650px;
+	padding: 30px;
+	margin: 0 auto;
+
+}
+
+#wrap3 {
+	width: 650px;
+	padding: 30px;
+	margin: 0 auto;
+
+}
+
+#wrap4 {
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	width: 100px;
+	height: 40px;
+	z-index:999999;
+	text-align: center;
+	clear: both;
+
+
+}
+
+#linkedin {
+	height:30px;
+	width:30px;
+}
+
+#stackoverflow {
+	height: 30px;
+	width:30px;
+}
+
+#github {
+	height: 30px;
+	width: 30px;
+}
+
+#name {
+	padding: 20px;
+	margin: 35px;
+
+}
+
+#email {
+	padding: 20px;
+	margin: 35px;
+}
+
+#message {
+	padding: 20px;
+	margin: 35px;
+	
+}
+
+
+
 </style>
