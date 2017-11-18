@@ -14,6 +14,7 @@ body {
 	top: 0;
 	position: fixed;
 	height: 150px;
+	width: 100%;
 
 
 }
@@ -203,4 +204,9 @@ h3 {
 	height: 50px;
 	width: 75px;
 	background: pink;
+}
+
+}
+#button: hover {
+	color: yellow;
 }
