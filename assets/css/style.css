@@ -1,28 +1,53 @@
-<style>
-
-* {
-	box-sizing: border-box;
-	text-align: center;
-}
-
 
 body {
+		margin:0 auto;
 		
-		background: url("assets/image/paisley.png");
-		padding: 30px;
-		margin-bottom: 30px
 }
 
-header {
-	padding: 30px;
-	margin-bottom: 30px;
-	color: #333;
+.clearfix {
+	clear: both;
+}
+
+.header {
+	background: #B3F9F8;
+	border: 1px solid #CCC;
+	top: 0;
+	position: fixed;
+	height: 150px;
+
 
 }
+
+
+.name {
+	float: left;
+	clear: both;
+}
+
+
+a {
+	text-decoration: none;
+
+}
+
+
+li {
+	list-style: none;
+	float: left;
+	margin-left: 40px;
+	padding-top: 65px;
+}
+
+
+.nav{
+	float: right;
+}
+
+
 
 img {
 
-	width: 350px;
+	width: 375px;
 	height:425px;
 }
 
@@ -30,17 +55,18 @@ img {
 
 p {
 	font-family: helvetica;
-	font-size: 20px;
-	font-color: #585050;
+	font-size: 16px;
 }
 
 h1 {
-	font-size: 50px;
+	font-size: 40px;
 	color: #095C9C;
 	font-family: georgia;
-	padding: 30px;
+	margin: 1px;
+	padding: 50px;
 
 }
+
 
 h2 {
 	color: #095C9C;
@@ -49,111 +75,117 @@ h2 {
 	
 }
 
+
 h3 {
-	color: #095C9C;
-	font-size: 35px;
-	font-family: georgia;
-}
-	
-
-h4 {
-	color: #095C9C;
-	font-size: 35px;
-	font-family: georgia;
-	padding: 40px;
-	margin: 35px;
-
-}
-
-
-h5 {
 	color: #095C9C;
 	font-size: 15px;
 	font-family: georgia;
-	float: right;
 	clear: both;
-	
 }
 
-div {
-	width: 20px;
-	border: 2px solid;
-	padding: 20px;
-	margin: 30px;
-}
 
-#about {
-	color: #F853D3;
-	font-size: 20px;
-	float: right;
-}
 
-#portfolio {
-	color: #F853D3;
-	font-size: 20px;
-	float: right;
+
+.site-footer {
+		background: #666666;
+		position: fixed;
+		left: 0px;
+		bottom: 0px;
+		height: 50px;
+		width: 100%;
+		text-align: center;
+		font-weight: bold;
+		padding-top: 15px;
+		opacity: 0.6;
 
 }
 
-#contact {
-	color: #F853D3;
-	font-size: 20px;
-	float: right;
-	clear: both;
-
-}
 
 #name {
-	color: #F853D3;
+	color: #D691ED;
 	font-size: 20px;
+	padding: 20px;
+	margin: 35px;
 }
 
 #email {
-	color: #F853D3;
+	color: #D691ED;
 	font-size: 20px;
+	padding: 20px;
+	margin: 35px;
 }
 
 #message {
-	color: #F853D3;
+	color: #D691ED;
 	font-size: 20px;
+	margin: 35px;
 }
 
-#wrap1 {
-	width: 650px;
-	padding: 30px;
-	margin: 0 auto;
+
+.wrap {
+	width:960px;
+	margin: 95px;
+	border:2px solid: #CCC;
+	padding top: 25px;
+
+}
+
+
+.wrap1 {
+	width: 600px;
+	padding: 100px;
+	border: 5px solid #CCC;
+	padding-top: 30px;
+	height: 800px;
+	
 }
 
 #wrap2 {
-	width: 650px;
-	padding: 30px;
-	margin: 0 auto;
-
+	width: 600px;
+	padding: 100px;
+	border: 5px solid #CCC;
+	padding-top: 30px;
+	height: 650px;
+	margin: 150px;
 }
 
 #wrap3 {
-	width: 650px;
-	padding: 30px;
-	margin: 0 auto;
-
+	width: 600px;
+	padding: 100px;
+	border: 5px solid #CCC;
+	padding-top: 30px;
+	height: 750px;
+	margin:150px;
 }
 
 #wrap4 {
 	position: fixed;
 	top: 0px;
 	right: 0px;
-	width: 100px;
-	height: 40px;
-	z-index:999999;
+	width: 185px;
 	text-align: center;
-	clear: both;
+	background-color: #D691ED;
+	margin: 30px;
 
+}
 
+.textarea {
+	
+	height: 300px;
+	width: 500px;
+
+}
+
+}
+
+.clearfix {
+	overflow: auto;
 }
 
 #linkedin {
 	height:30px;
 	width:30px;
+	
 }
 
 #stackoverflow {
@@ -166,23 +198,9 @@ div {
 	width: 30px;
 }
 
-#name {
-	padding: 20px;
-	margin: 35px;
 
+#button {
+	height: 50px;
+	width: 75px;
+	background: pink;
 }
-
-#email {
-	padding: 20px;
-	margin: 35px;
-}
-
-#message {
-	padding: 20px;
-	margin: 35px;
-	
-}
-
-
-
-</style>
