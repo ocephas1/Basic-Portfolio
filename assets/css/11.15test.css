@@ -1,0 +1,28 @@
+body {
+	width: 100%
+	margin: auto;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+
+}
+
+.header{
+	background: pink;
+	width: 100%;
+	top: 0;
+}
+
+.name {
+	float: left;
+}
+
+a {
+	text-decoration: none;
+}
+
+li{
+	list-style: none;
+}
